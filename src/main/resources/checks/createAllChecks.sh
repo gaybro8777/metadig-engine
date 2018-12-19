@@ -25,7 +25,7 @@ for i in *.xml; do sed -f cleanChecks.sed "$i" >> allChecks.dat; done
 #
 #   Add closing element
 #
-echo '</allChecks>' >> allChecks.dat
+echo '</mdq:allChecks>' >> allChecks.dat
 #
 #   rename allChecks.dat and count checks in allChecks.xml
 #
