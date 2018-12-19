@@ -2,24 +2,18 @@
 <mdq:suite xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
-   <id>WSDL_Access.suite.1</id>
-   <name>WSDL_Access</name>
+   <id>FAIR Metadata - Reusable.suite.1</id>
+   <name>FAIR Metadata - Reusable</name>
    <check>
-      <id>Types</id>
+      <id>LineageStatement</id>
    </check>
    <check>
-      <id>Interface</id>
+      <id>Source</id>
    </check>
    <check>
-      <id>ServiceOperationName</id>
+      <id>SourceCitation</id>
    </check>
    <check>
-      <id>Binding</id>
-   </check>
-   <check>
-      <id>ServiceLocation</id>
-   </check>
-   <check>
-      <id>Service</id>
+      <id>ProcessStep</id>
    </check>
 </mdq:suite>

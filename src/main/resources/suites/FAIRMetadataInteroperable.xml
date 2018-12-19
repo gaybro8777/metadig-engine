@@ -2,27 +2,30 @@
 <mdq:suite xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
-   <id>ISO_UserFeedback_Understanding.suite.1</id>
-   <name>ISO_UserFeedback_Understanding</name>
+   <id>FAIR Metadata - Interoperable.suite.1</id>
+   <name>FAIR Metadata - Interoperable</name>
    <check>
-      <id>SpecificUsage</id>
+      <id>ResourceFormat</id>
    </check>
    <check>
-      <id>UsageTime</id>
+      <id>CoverageContentType</id>
    </check>
    <check>
-      <id>UserDeterminedLimitations</id>
+      <id>ParameterName</id>
    </check>
    <check>
-      <id>UserContact</id>
+      <id>ParameterName(Long)</id>
    </check>
    <check>
-      <id>UserResponse</id>
+      <id>Parametername(Standard)</id>
    </check>
    <check>
-      <id>AdditionalUsageDocumentation</id>
+      <id>ParameterDefinition</id>
    </check>
    <check>
-      <id>IdentifiedIssuesCitation</id>
+      <id>ParameterUnits</id>
+   </check>
+   <check>
+      <id>StandardNameVocabulary</id>
    </check>
 </mdq:suite>
