@@ -1,0 +1,230 @@
+<html xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Quality Engine Checks</title>
+   </head>
+   <body>
+      <h1>Quality Engine Checks</h1>
+      <h2>Suite: DataONE Quality Suite</h2>
+      <table border="yes" cellpadding="3">
+         <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Description</th>
+            <th>Type</th>
+            <th>Dialects</th>
+         </tr>
+         <tr>
+            <td><b>Creator</b></td>
+            <td>check.creator.present.1</td>
+            <td>Creator should be present</td>
+            <td>identification</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Check creator information</b></td>
+            <td>check.creator.info.1</td>
+            <td>Check if the creator contains an email and address.</td>
+            <td>identification</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Contact</b></td>
+            <td>check.contact.1</td>
+            <td>Contact should be present</td>
+            <td>identification</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Check contact information</b></td>
+            <td>check.contact.info.1</td>
+            <td>Check if the contact contains an email and address.</td>
+            <td>identification</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Abstract length</b></td>
+            <td>check.abstract.100.words.1</td>
+            <td>Abstract should be at least 100 words long.</td>
+            <td>discovery</td>
+            <td>Dialects: 2<br>eml, iso
+            </td>
+         </tr>
+         <tr>
+            <td><b>Dataset title length is sufficient</b></td>
+            <td>check.dataset.title.length.1</td>
+            <td>Check that the dataset title is greater than 7 words and less than 20.</td>
+            <td>identification</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Identifier present</b></td>
+            <td>check.identifier.is.present.1</td>
+            <td>Identifier should be present.</td>
+            <td>identification</td>
+            <td>Dialects: 0<br></td>
+         </tr>
+         <tr>
+            <td><b>DOI Identifier</b></td>
+            <td>check.identifier.is.doi.1</td>
+            <td>Identifier should be a DOI.</td>
+            <td>identification</td>
+            <td>Dialects: 0<br></td>
+         </tr>
+         <tr>
+            <td><b>Usage</b></td>
+            <td>check.usage.is.cc.1</td>
+            <td>Usage should be Creative Commons</td>
+            <td>identification</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Temporal coverage</b></td>
+            <td>check.temporal.coverage.1</td>
+            <td>Temporal coverage should be present at the dataset level</td>
+            <td>discovery</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Geographic coverage description</b></td>
+            <td>check.geographic.description.1</td>
+            <td>Geographic coverage description should be present at the dataset level.</td>
+            <td>discovery</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Geographic coverage coordinates</b></td>
+            <td>check.bounding.coordinates.1</td>
+            <td>Geographic Coverage should contain bounding coordinates.</td>
+            <td>discovery</td>
+            <td>Dialects: 2<br>eml, iso
+            </td>
+         </tr>
+         <tr>
+            <td><b>Publication date</b></td>
+            <td>check.pub.date.1</td>
+            <td>Publication date should be present</td>
+            <td>identification</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Sampling description present</b></td>
+            <td>check.sampling.description.present.1</td>
+            <td>Checks if a sampling description is present in the methods section.</td>
+            <td>interpretation</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Data entity present check.</b></td>
+            <td>check.entity.present.1</td>
+            <td>Check that a data entity is present.</td>
+            <td>interpretation</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Check that an entity name, description, format, size, checksum is present</b></td>
+            <td>check.entity.name.present.1</td>
+            <td>Check that each data entity has a name, description, format, size, checksum.</td>
+            <td>interpretation</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Check that an each entity has a name and attributes.</b></td>
+            <td>check.entity.attributes.present.1</td>
+            <td>Check that each data entity has attributes.</td>
+            <td>interpretation</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Attribute definition is sufficient.</b></td>
+            <td>check.attribute.definition.sufficient.1</td>
+            <td>Check that each attribute definition has greater that 4 words.</td>
+            <td>interpretation</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Sampling extent description present</b></td>
+            <td>check.sampling.study.extent.present.1</td>
+            <td>Checks that a sampling study extent is present.</td>
+            <td>interpretation</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Attribute name differs from attribute description.</b></td>
+            <td>check.attribute.name.differs.1</td>
+            <td>Check that each entity name and definition are not identical.</td>
+            <td>interpretation</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Methods present</b></td>
+            <td>check.methods.present.1</td>
+            <td>All datasets should contain a methods section, or a link to a separate methods doc.</td>
+            <td>interpretation</td>
+            <td>Dialects: 1<br>eml
+            </td>
+         </tr>
+         <tr>
+            <td><b>Missing Value Codes</b></td>
+            <td>missing.value.codes.1</td>
+            <td>Missing value codes should be present for all attributes. Note that this only checks
+               for the presence of a &lt;missingValueCode&gt; in each &lt;attribute&gt; and does not check the
+               validity of the code values.
+            </td>
+            <td>interpretation</td>
+            <td>Dialects: 0<br></td>
+         </tr>
+         <tr>
+            <td><b>Enumerated domain</b></td>
+            <td>enumerated.domains.1</td>
+            <td>Enumerated domains should be defined</td>
+            <td>interpretation</td>
+            <td>Dialects: 0<br></td>
+         </tr>
+         <tr>
+            <td><b>Echo rightsHolder</b></td>
+            <td>check.echo.rightsHolder.1</td>
+            <td>Extract rightsHolder from system metadata</td>
+            <td>identification</td>
+            <td>Dialects: 0<br></td>
+         </tr>
+         <tr>
+            <td><b>Echo datasource</b></td>
+            <td>check.echo.datasource.1</td>
+            <td>Extract datasource (auth MN) from system metadata</td>
+            <td>identification</td>
+            <td>Dialects: 0<br></td>
+         </tr>
+         <tr>
+            <td><b>Echo formatId</b></td>
+            <td>check.echo.formatId.1</td>
+            <td>Extract formatId from system metadata</td>
+            <td>identification</td>
+            <td>Dialects: 0<br></td>
+         </tr>
+         <tr>
+            <td><b>Group lookup</b></td>
+            <td>check.lookup.group.1</td>
+            <td>Look up group information from CN using system metadata info</td>
+            <td>identification</td>
+            <td>Dialects: 0<br></td>
+         </tr>
+      </table>
+   </body>
+</html>
